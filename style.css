@@ -1,0 +1,14 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css";
+
+body{
+    padding-top: 100px;
+  background-color: LightSteelBlue;
+  
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+div#rafa{
+    padding-top: 20px;
+}

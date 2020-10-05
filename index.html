@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Leitor de Textos</title>
+</head>
+
+    <body  class="m-auto text-center">
+  <p>Leitor de Textos</p>
+        <div class="border border-blue-700 m-4" contenteditable 
+             oninput = "setText(event)">Coloque seu texto aqui</div>
+        
+      <button onclick="speak() " class="p-4 bg-blue-300 rounded shadow" >Falar </button> 
+      <button onclick= "stop()" class="p-4 bg-blue-700 text-white rounded shadow" >Parar </button>
+      
+      <div id="rafa" class="m-auto text-center">@Rafa Figueiredo</div>
+      </body>
+      <script src="javascript.js"></script>
+</html>
